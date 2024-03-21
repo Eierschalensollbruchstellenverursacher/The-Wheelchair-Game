@@ -1,7 +1,11 @@
+using System;
 using UnityEngine;
 
 public sealed class StatsManager : MonoBehaviour
 {
+    public Action OnScoreChange;
+    public Action OnPlaytimeChange;
+
     [SerializeField] private float _currentScore;
     [SerializeField] private float _bestScore;
 
