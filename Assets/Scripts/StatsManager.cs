@@ -2,9 +2,19 @@ using UnityEngine;
 
 public sealed class StatsManager : MonoBehaviour
 {
+    [SerializeField] private float _currentScore;
+    [SerializeField] private float _bestScore;
+
+    [SerializeField] private float _playtimeSeconds;
+    [SerializeField] private float _bestPlaytimeSeconds;
+
     public static StatsManager Instance { get; private set; }
 
-    [field:SerializeField] public 
+    public float CurrentScore => _currentScore;
+    public float BestScore => _bestScore;
+
+    public float PlaytimeSeconds => _playtimeSeconds;
+    public float BestPlaytimeSeconds => _bestPlaytimeSeconds;
 
     private void Awake()
     {
