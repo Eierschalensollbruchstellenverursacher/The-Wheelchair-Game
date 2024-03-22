@@ -14,9 +14,10 @@ namespace GameplayFSM
         [SerializeField] List<GameObject> _diedStateObjects = new();
         [SerializeField] List<GameObject> _wonStateObjects = new();
 
+        private GameplayFSM _stateMachine= new();
+
         public static GameplayStateMachine Instance { get; private set; }
 
-        public GameplayFSM StateMachine { get; private set; } = new();
 
         private void Awake()
         {
@@ -32,13 +33,13 @@ namespace GameplayFSM
 
         private void Start()
         {
-            StateMachine.AddState(new GameplayStateInMenu(StateMachine, _menuStateObjects));
-            StateMachine.AddState(new GameplayStatePlaying(StateMachine, _playingStateObjects));
-            StateMachine.AddState(new GameplayStatePaused(StateMachine, _pausedStateObjects));
-            StateMachine.AddState(new GameplayStateWon(StateMachine, _wonStateObjects));
-            StateMachine.AddState(new GameplayStateDead(StateMachine, _diedStateObjects));
+            _stateMachine.AddState(new GameplayStateInMenu(_stateMachine, _menuStateObjects));
+            _stateMachine.AddState(new GameplayStatePlaying(_stateMachine, _playingStateObjects));
+            _stateMachine.AddState(new GameplayStatePaused(_stateMachine, _pausedStateObjects));
+            _stateMachine.AddState(new GameplayStateWon(_stateMachine, _wonStateObjects));
+            _stateMachine.AddState(new GameplayStateDead(_stateMachine, _diedStateObjects));
 
-            StateMachine.SetState<GameplayStateInMenu>();
+            _stateMachine.SetState<GameplayStateInMenu>();
         }
 
 #if UNITY_EDITOR && LOGGING_STATES
@@ -46,9 +47,9 @@ namespace GameplayFSM
 
         private void LateUpdate()
         {
-            if (_currentState is null || _currentState != StateMachine.CurrentState)
+            if (_currentState is null || _currentState != _stateMachine.CurrentState)
             {
-                _currentState = StateMachine.CurrentState;
+                _currentState = _stateMachine.CurrentState;
                 Debug.Log($"Entered {_currentState} state");
             }
         }

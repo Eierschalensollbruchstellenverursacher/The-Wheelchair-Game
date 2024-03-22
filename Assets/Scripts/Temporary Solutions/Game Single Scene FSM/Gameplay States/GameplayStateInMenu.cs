@@ -15,6 +15,7 @@ namespace GameplayFSM
         public override void Enter()
         {
             base.Enter();
+            Debug.Log("In menu!");
         }
 
         public override void Exit()
@@ -25,6 +26,11 @@ namespace GameplayFSM
         public override void Update()
         {
             base.Update();
+        }
+
+        private void StartGame()
+        {
+            StateMachine.SetState<GameplayStatePlaying>();
         }
     }
 }
