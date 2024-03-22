@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="760584f4-dfe5-494d-8dee-677e4a1a9c3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/HandVisualizer.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/HandVisualizer.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Materials/Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Materials/Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Materials/Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Materials/Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Materials/HandsDefaultMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Materials/HandsDefaultMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Materials/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Materials/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Materials/White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Materials/White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Models/LeftHand.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Models/LeftHand.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Models/RightHand.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Models/RightHand.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Prefabs/Joint.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Prefabs/Joint.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Prefabs/Left Hand Tracking.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Prefabs/Left Hand Tracking.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Prefabs/Right Hand Tracking.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Prefabs/Right Hand Tracking.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Prefabs/VelocityPrefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Prefabs/VelocityPrefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Scripts/HandProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Scripts/HandProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Scripts/HandVisualizer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Scripts/HandVisualizer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.4.0/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1 - Grasslands - Climb Edit.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1 - Grasslands - Climb Edit.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +61,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitLabMergeRequestsSettings"><![CDATA[{}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitLabMergeRequestsSettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.3/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.3/Runtime/Inputs/XRInputModalityManager.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiProvider">{}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2dzUYFyItkyAOtC2vOPVbhEPS6J" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,9 +79,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "VRTK-test",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -44,6 +97,44 @@
     ]
   }
 }]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\lars_\Unity\The-Wheelchair-Game -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\lars_\Unity\The-Wheelchair-Game" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\lars_\Unity\The-Wheelchair-Game -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\lars_\Unity\The-Wheelchair-Game" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +144,9 @@
       <option name="presentableId" value="Default" />
       <updated>1711010446689</updated>
       <workItem from="1711010449739" duration="116000" />
+      <workItem from="1711029205666" duration="269000" />
+      <workItem from="1711029812838" duration="113000" />
+      <workItem from="1711032481503" duration="1029000" />
     </task>
     <servers />
   </component>
@@ -61,6 +155,7 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>
