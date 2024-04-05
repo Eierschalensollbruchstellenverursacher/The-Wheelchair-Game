@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="760584f4-dfe5-494d-8dee-677e4a1a9c3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1 - Grasslands - Climb Edit.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1 - Grasslands - Climb Edit.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/copilot/chatSessions/blobs/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/copilot/chatSessions/xd.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/XR/XRGeneralSettingsPerBuildTarget.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/XR/XRGeneralSettingsPerBuildTarget.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.3/Runtime/Inputs/XRInputModalityManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.3/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.3/Runtime/Locomotion/Climb/ClimbInteractable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiProvider">{}</component>
   <component name="ProjectColorInfo">{
@@ -105,6 +108,7 @@
       <workItem from="1711029812838" duration="113000" />
       <workItem from="1711032481503" duration="1029000" />
       <workItem from="1711112102909" duration="743000" />
+      <workItem from="1711968837281" duration="646000" />
     </task>
     <servers />
   </component>
