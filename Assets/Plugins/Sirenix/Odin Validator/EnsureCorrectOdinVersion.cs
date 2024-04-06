@@ -73,7 +73,7 @@ namespace Sirenix.OdinValidator.Editor
                     {
                         var versionMismatchFile = path + "Odin Validator/ignoreVersionMismatch.txt";
                         File.WriteAllText(versionMismatchFile, misMatchText);
-                    };
+                    }
                 }
             }
             else
