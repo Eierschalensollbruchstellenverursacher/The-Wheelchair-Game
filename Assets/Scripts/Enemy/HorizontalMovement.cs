@@ -30,13 +30,13 @@ public class HorizontalMovement : MonoBehaviour
     private void HandleReachingTarget()
     {
         
-        Debug.Log("Monster collision");
+        Debug.Log($"{nameof(HorizontalMovement)}: Monster collision");
 
     }
     private void HandleHittingTarget()
     {
         
-        Debug.Log("Laser collision");
+        Debug.Log($"{nameof(HorizontalMovement)}: Laser collision");
 
     }
     private void OnEnable()
