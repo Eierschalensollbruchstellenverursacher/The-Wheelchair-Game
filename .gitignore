@@ -83,5 +83,8 @@ ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
 .idea/.idea.The-Wheelchair-Game/.idea/sonarlint/securityhotspotstore/c/c/cc2c44fef6067b608c229f816ad03fa26e70a2f4
 .idea/.idea.The-Wheelchair-Game/.idea/sonarlint/securityhotspotstore/index.pb
 .idea/.idea.The-Wheelchair-Game/.idea/workspace.xml
-/Assets/Plugins/Sirenix/Demos
+Assets/Plugins/Sirenix/Demos/Sample - RPG Editor.unitypackage.meta
+Assets/Plugins/Sirenix/Demos/Editor Windows.unitypackage.meta
+Assets/Plugins/Sirenix/Demos/Custom Drawers.unitypackage.meta
+Assets/Plugins/Sirenix/Demos/Custom Attribute Processors.unitypackage.meta
 /.idea/.idea.The-Wheelchair-Game/.idea/sonarlint
