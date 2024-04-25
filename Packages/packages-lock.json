@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.occasoftware.super-simple-skybox": {
+      "version": "file:com.occasoftware.super-simple-skybox",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.shadergraph": "14.0.7"
+      }
+    },
     "com.unity.burst": {
       "version": "1.8.12",
       "depth": 1,
@@ -269,7 +277,7 @@
     },
     "com.unity.xr.oculus": {
       "version": "4.2.0",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.4.0"
