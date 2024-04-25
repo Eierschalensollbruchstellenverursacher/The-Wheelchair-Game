@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="760584f4-dfe5-494d-8dee-677e4a1a9c3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_VisualAssets/Materials/SuperSimpleSkybox Variant 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_VisualAssets/Materials/SuperSimpleSkybox Variant 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_VisualAssets/Materials/SuperSimpleSkybox Variant.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_VisualAssets/Materials/SuperSimpleSkybox Variant.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SuperSimpleSkybox Variant 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SuperSimpleSkybox Variant 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SuperSimpleSkybox Variant.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SuperSimpleSkybox Variant.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/XR/XRGeneralSettingsPerBuildTarget.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/XR/XRGeneralSettingsPerBuildTarget.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1 - Grasslands - Climb Edit.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1 - Grasslands - Climb Edit.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/High_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/High_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Low_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Low_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Medium_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Medium_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Very High_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Very High_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Very Low_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Very Low_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_VisualAssets/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_VisualAssets/Materials/Red.mat" afterDir="false" />
-    </list>
+    <list default="true" id="760584f4-dfe5-494d-8dee-677e4a1a9c3e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,19 +13,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MarzLars"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MarzLars&quot;
   }
-}]]></component>
+}</component>
   <component name="GitLabMergeRequestsSettings">{}</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Eierschalensollbruchstellenverursacher/The-Wheelchair-Game.git",
-    "accountId": "f10bcd33-5dc9-4c35-9847-d2955929d012"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Eierschalensollbruchstellenverursacher/The-Wheelchair-Game.git&quot;,
+    &quot;accountId&quot;: &quot;f10bcd33-5dc9-4c35-9847-d2955929d012&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemLogic/HandHeldItems/Umbrella.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemLogic/PairTagWithPrefab.cs" root0="FORCE_HIGHLIGHTING" />
@@ -181,7 +160,7 @@
       <workItem from="1714062045732" duration="5000" />
       <workItem from="1714062090603" duration="5000" />
       <workItem from="1714062164894" duration="7000" />
-      <workItem from="1714086264257" duration="359000" />
+      <workItem from="1714086264257" duration="945000" />
     </task>
     <servers />
   </component>
