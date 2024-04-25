@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 namespace ItemLogic
 {
@@ -7,7 +7,7 @@ namespace ItemLogic
     /// Custom XR Socket Interactor that allows for dynamic instantiation and attachment of predefined GameObjects as children of this socket.
     /// This class supports attaching specific prefabs, such as a grappling hook or an umbrella, based on the tag of the incoming GameObject.
     /// </summary>
-    public class CustomXRSocketInteractor : XRSocketInteractor
+    public class CustomXRSocketInteractor : UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
     {
         /// <summary>
         /// Instantiates a predefined prefab based on the tag of the incoming `item` and attaches it as a child to this socket.
@@ -36,9 +36,9 @@ namespace ItemLogic
             // Instantiate the prefab and parent it to the socket
             GameObject instantiatedItem = Instantiate(prefabToInstantiate, transform);
             // If the instantiated item has an XRBaseInteractable component, select it
-            if (instantiatedItem.TryGetComponent(out XRBaseInteractable interactable))
+            if (instantiatedItem.TryGetComponent(out UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable interactable))
             {
-                interactionManager.SelectEnter(this as IXRSelectInteractor, interactable as IXRSelectInteractable);
+                interactionManager.SelectEnter(this as UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor, interactable as UnityEngine.XR.Interaction.Toolkit.Interactables.IXRSelectInteractable);
             }
             // Set IsOccupied to true when an item is attached
             IsOccupied = true;
