@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SuperSimpleSkybox Variant
+  m_Shader: {fileID: -6465566751694194690, guid: 99260826d72a8d543981d52b92aa0b53, type: 3}
+  m_Parent: {fileID: 2100000, guid: af0dc69a1aa3f504c9c9e971a05ab367, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _StarTexture:
+        m_Texture: {fileID: 2800000, guid: a8a756e35cf33314aa24896fc57e9e00, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_QueueControl: 0
+    - _CloudOpacity: 0.306
+    - _CloudSharpness: 0.595
+    - _Cloudiness: 0.223
+    - _Constant_Color_Mode: 1
+    - _GroundFadeAmount: 0.439
+    - _Ground_Height: -0.175
+    - _StarHorizonFalloff: 0.356
+    - _StarIntensity: 1.2
+    - _StarSaturation: 2.51
+    - _StarScale: 0.38
+    - _StarSpeed: 0.45
+    - _Sun_Enabled: 0
+    m_Colors:
+    - _CloudColorDay: {r: 0.2927623, g: 0.22628158, b: 0.4245283, a: 1}
+    - _GroundColor: {r: 1, g: 0, b: 0, a: 0}
+    - _Star_Texture_Tint: {r: 0.754717, g: 0.6334491, b: 0.41651833, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &3100552671484710056
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!114 &8117546948629818562
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
