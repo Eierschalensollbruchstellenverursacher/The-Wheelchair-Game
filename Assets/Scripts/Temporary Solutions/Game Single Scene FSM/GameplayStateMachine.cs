@@ -47,7 +47,7 @@ namespace GameplayFSM
 
         private void LateUpdate()
         {
-            if (_currentState is null || _currentState != _stateMachine.CurrentState)
+            if (_currentState == null || _currentState != _stateMachine.CurrentState)
             {
                 _currentState = _stateMachine.CurrentState;
                 Debug.Log($"Entered {_currentState} state");

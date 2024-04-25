@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,13 +11,16 @@ namespace GameplayFSM
         public GameplayStatePlaying(GameplayFSM stateMachine, IEnumerable<GameObject> thisStateOnlyObjects)
                 : base(stateMachine, thisStateOnlyObjects) { }
 
+
         public override void Enter()
         {
+            Enemy.OnReachingTarget += SwitchToDeadState;
             base.Enter();
         }
 
         public override void Exit()
         {
+            Enemy.OnReachingTarget -= SwitchToDeadState;
             base.Exit();
         }
 
@@ -26,5 +28,12 @@ namespace GameplayFSM
         {
             base.Update();
         }
+
+        private void SwitchToDeadState() => StateMachine.SetState<GameplayStateDead>();
+        private void SwitchToWonState() => StateMachine.SetState<GameplayStateWon>();
+        private void SwitchToPausedState() => StateMachine.SetState<GameplayStatePaused>();
+
+        
+
     }
 }
