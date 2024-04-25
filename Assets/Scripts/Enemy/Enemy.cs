@@ -13,6 +13,8 @@ public sealed class Enemy : MonoBehaviour
     [SerializeField] private float _defaultMovementCooldownSeconds = 3f;
     [SerializeField] private float _slowedMovementCooldownSeconds = 4f;
     [SerializeField] private float _spedUpMovementCooldownSeconds = 2f;
+    
+    private float _currentAttackCooldownSeconds = 0f;
 
     [Space]
 
@@ -35,47 +37,65 @@ public sealed class Enemy : MonoBehaviour
     [SerializeField] private bool _hasToMove = false;
     [SerializeField] private bool _isSpedUp = false;
     [SerializeField] private bool _isSlowed = false;
-    [SerializeField] bool resetPosition = false;
+    [SerializeField] private bool _resetPosition = false;
     [SerializeField] private bool _canMoveUp = true; // New variable to prevent enemy from moving
+
+    [Space]
+    [Header("Sounds")]
     [SerializeField] private AudioClip _attackSoundQ;
 
+    private AudioSource _audioSource;
 
-    private float _currentAttackCooldownSeconds = 0f;
 
-    private AudioSource audioSource;
+
+    private float currentMovementCooldownSeconds
+    { 
+        get
+        {
+            if (_isSpedUp == true)  
+                return _spedUpMovementCooldownSeconds;
+
+            if (_isSlowed == true) 
+                return _slowedMovementCooldownSeconds;
+
+            return _defaultMovementCooldownSeconds;
+        }
+    }
 
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        _audioSource = GetComponent<AudioSource>();
         _target = GetComponent<HorizontalMovement>().Target;
 
         StartCoroutine(MoveOneUpCoroutine(currentMovementCooldownSeconds));
         GenerateCooldown();
 
-        if (audioSource == null)
-            audioSource = gameObject.AddComponent<AudioSource>();
+        if (_audioSource == null)
+            _audioSource = gameObject.AddComponent<AudioSource>();
     }
-    void Update()
+
+    private void Update()
     {
-        if (resetPosition)
+        if (_resetPosition)
         {
             ResetPosition();
-            resetPosition = false;
+            _resetPosition = false;
         }
         
         _currentAttackCooldownSeconds -= Time.deltaTime;
 
-        if(_currentAttackCooldownSeconds <= 0)
+        if (_currentAttackCooldownSeconds <= 0)
         {
             AttackWithLaser();
             GenerateCooldown();
         }    
     }
+
     [ContextMenu("Attack")]
     public void AttackWithLaser()
     {
 
-        audioSource.PlayOneShot(_attackSoundQ, 0.1f);
+        _audioSource.PlayOneShot(_attackSoundQ, 0.1f);
 
         Vector3 currentEnemyPosition = gameObject.transform.position;
 
@@ -117,20 +137,6 @@ public sealed class Enemy : MonoBehaviour
         _isSlowed = true;
         yield return new WaitForSeconds(seconds);
         _isSlowed = false;
-    }
-
-    private float currentMovementCooldownSeconds
-    { 
-        get
-        {
-            if (_isSpedUp == true)  
-                return _spedUpMovementCooldownSeconds;
-
-            if ( _isSlowed == true) 
-                return _slowedMovementCooldownSeconds;
-
-            return _defaultMovementCooldownSeconds;
-        }
     }
 
     public void SlowDown() 
