@@ -1,15 +1,16 @@
 using System;
 using System.Collections.Generic;
+using FallingObstacles.InternalLogic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Obstacles
+namespace FallingObstacles
 {
     public sealed class FallingObstacleFactoryWrapper : MonoBehaviour
     {
         public static Action OnFallingObjectsSpawn;
 
-        [SerializeField] private List<FallingObstacleConfig> _spawnedObstacleConfigs = new();
+        [SerializeField] internal List<FallingObstacleConfig> _spawnedObstacleConfigs = new();
 
         [SerializeField, Min(0)] private int _spawnQuantity = 5;
         [Space]
@@ -18,6 +19,13 @@ namespace Obstacles
         [Space]
         [SerializeField] private float _maxSpawnIndentLeft  = -0.85f;
         [SerializeField] private float _maxSpawnIndentRight = 0.85f;
+        
+        private CustomXRGrabInteractable grabInteractable;
+        public void Initialize(CustomXRGrabInteractable grabInteractable)
+        {
+            // Set up the reference to the CustomXRGrabInteractable script
+            this.grabInteractable = grabInteractable;
+        }
 
         [ContextMenu("Spawn Obstacle")]
         public void SpawnObstacle()

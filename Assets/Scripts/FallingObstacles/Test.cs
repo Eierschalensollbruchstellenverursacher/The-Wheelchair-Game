@@ -1,14 +1,17 @@
 using UnityEngine;
 
-public sealed class Test : MonoBehaviour
+namespace FallingObstacles
 {
-    private void Start()
+    public sealed class Test : MonoBehaviour
     {
+        private void Start()
+        {
         
-    }
+        }
 
-    private void Update()
-    {
+        private void Update()
+        {
         
+        }
     }
 }

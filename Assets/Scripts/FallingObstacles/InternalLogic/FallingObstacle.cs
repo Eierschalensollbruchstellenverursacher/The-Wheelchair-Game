@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Obstacles
+namespace FallingObstacles.InternalLogic
 {
     [RequireComponent(typeof(Rigidbody))]
     public sealed class FallingObstacle : MonoBehaviour

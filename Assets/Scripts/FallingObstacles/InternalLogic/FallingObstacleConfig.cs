@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Obstacles
+namespace FallingObstacles.InternalLogic
 {
     [CreateAssetMenu(fileName = "FallingObstacle", menuName = "Obstacles/Falling Obstacle")]
     public sealed class FallingObstacleConfig : ScriptableObject

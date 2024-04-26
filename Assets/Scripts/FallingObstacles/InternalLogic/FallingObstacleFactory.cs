@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace Obstacles
+namespace FallingObstacles.InternalLogic
 {
     public sealed class FallingObstacleFactory : MonoBehaviour
     {

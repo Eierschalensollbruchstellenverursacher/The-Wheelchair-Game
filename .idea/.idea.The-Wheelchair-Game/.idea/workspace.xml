@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="760584f4-dfe5-494d-8dee-677e4a1a9c3e" name="Changes" comment="" />
+    <list default="true" id="760584f4-dfe5-494d-8dee-677e4a1a9c3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/CustomXRGrabInteractable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/CustomXRGrabInteractable.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The-Wheelchair-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GrabAndSpawn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GrabAndSpawn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Grabbable Rock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Grabbable Rock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1 - Grasslands - Climb Edit.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1 - Grasslands - Climb Edit.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/FallingObstacleFactoryWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/FallingObstacleFactoryWrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/InternalLogic/FallingObstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/InternalLogic/FallingObstacle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/InternalLogic/FallingObstacleConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/InternalLogic/FallingObstacleConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/InternalLogic/FallingObstacleFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/InternalLogic/FallingObstacleFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/ObstacleTypesEnum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/ObstacleTypesEnum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObstacles/Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemLogic/HandHeldItems/Umbrella.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemLogic/HandHeldItems/Umbrella.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +42,14 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingObstacles/ScriptDetatcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemLogic/HandHeldItems/Umbrella.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemLogic/PairTagWithPrefab.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemLogic/PickUpLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.core-utils@2.3.0/Runtime/XRLoggingUtils.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.3/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.3/Runtime/Interaction/Interactables/XRGrabInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/OculusLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -106,10 +123,10 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="37904">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="37904" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -163,6 +180,8 @@
       <workItem from="1714086264257" duration="945000" />
       <workItem from="1714088351319" duration="63000" />
       <workItem from="1714088445119" duration="20000" />
+      <workItem from="1714088482276" duration="4782000" />
+      <workItem from="1714094231424" duration="4941000" />
     </task>
     <servers />
   </component>

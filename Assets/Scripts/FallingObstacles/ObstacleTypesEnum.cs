@@ -1,4 +1,4 @@
-namespace Obstacles
+namespace FallingObstacles
 {
     public enum ObstacleTypes
     {

@@ -1,5 +1,5 @@
 using System.Collections;
-using Obstacles;
+using FallingObstacles.InternalLogic;
 using UnityEngine;
 
 namespace ItemLogic.HandHeldItems
