@@ -50,14 +50,17 @@ Material:
     - _CloudOpacity: 0.072
     - _Cloudiness: 0.703
     - _Constant_Color_Mode: 1
+    - _GroundEnabled: 1
     - _MoonAngularDiameter: 2
     - _MoonFalloff: 60
-    - _Moon_Enabled: 1
+    - _Moon_Enabled: 0
     - _StarDaytimeBrightness: 0.111
     - _StarHorizonFalloff: 0.371
     - _StarIntensity: 2.29
     - _StarSaturation: 2.51
-    m_Colors: []
+    - _Sun_Enabled: 0
+    m_Colors:
+    - _MoonColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5041198612421394681
 MonoBehaviour:

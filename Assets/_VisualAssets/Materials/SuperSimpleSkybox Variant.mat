@@ -36,6 +36,7 @@ Material:
     - _Constant_Color_Mode: 1
     - _GroundFadeAmount: 0.439
     - _Ground_Height: -0.175
+    - _Moon_Enabled: 0
     - _StarHorizonFalloff: 0.356
     - _StarIntensity: 1.2
     - _StarSaturation: 2.51
